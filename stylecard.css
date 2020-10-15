@@ -19,7 +19,7 @@ body{
 
 
 
-.profil-card{
+.pc{
   width: 400px;
   text-align: center;
   border-radius: 8px;
@@ -27,7 +27,7 @@ body{
 }
 
 
-.card-header{
+.ch{
   background: #2c3a47;
   padding: 60px 40px;
 }
@@ -66,25 +66,25 @@ body{
 
 }
 
-.name{
+.navn{
   color: #f2f2f2;
   font-size: 25px;
   font-weight: : 600;
   margin: 15px 0;
 }
 
-.desc{
+.beskrivelse{
   font-size:15px;
   color: #e66767;
 }
 
-.sm{
+.mk{
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-.sm a{
+.mk a{
   color: #f2f2f2;
   width: 56px;
   font-size: 22px;
@@ -92,22 +92,22 @@ body{
   href="https:"https://www.facebook.com"
 }
 
-.sm a:hover{
+.mk a:hover{
   color: #e66767;
 }
 
-.sm i{
+.mk i{
   color: #f2f2f2;
   width: 56px;
   font-size: 22px;
   transition: .3s linear;
 }
 
-.sm i:hover{
+.mk i:hover{
   color: #fffc00;
 }
 
-.sm f{
+.mk f{
   color: #f2f2f2;
   width: 56px;
   font-size: 22px;
@@ -115,7 +115,7 @@ body{
   href : "https://www.facebook.com/tanmeet.singh.927/"
 }
 
-.sm f:hover{
+.mk f:hover{
   color: #e66767;
 }
 .contact-btn{
@@ -133,18 +133,18 @@ body{
   color: #f2f2f2;
 }
 
-.card-footer{
+.cf{
   background: #f4f4f4;
   padding: 60px 10px;
 
 }
 
-.numbers{
+.nummer{
   display: flex;
   align-items: center;
 }
 
-.item{
+.kk{
   flex: 1;
   text-transform: uppercase;
   font-size: 13px;
