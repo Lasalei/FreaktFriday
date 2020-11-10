@@ -39,29 +39,14 @@ body{
   margin: auto;
   border-radius: 50%;
   background-size: 200% 200%;
-  animation: animated-gradient 2s linear infinite;
 }
 
-@@keyframes animated-gradient{
-  25%{
-    background-position: left bottem;
-  }
-  50%{
-    background-position: right bottem;
-  }
-  75%{
-    background-position: right top;
-  }
-  100%{
-    background-position: left top;
-  }
 
-}
 
 .pic img {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%
 
 }
@@ -96,39 +81,17 @@ body{
   color: #e66767;
 }
 
-.mk i{
-  color: #f2f2f2;
-  width: 56px;
-  font-size: 22px;
-  transition: .3s linear;
-}
-
-.mk i:hover{
-  color: #fffc00;
-}
-
-.mk f{
-  color: #f2f2f2;
-  width: 56px;
-  font-size: 22px;
-  transition: .3s linear;
-  href : "https://www.facebook.com/tanmeet.singh.927/"
-}
-
-.mk f:hover{
-  color: #e66767;
-}
-.contact-btn{
+.kontakt-btn{
   display: inline-block;
   padding: 12px 50px;
-  color: #e66767;
-  border; 2px solid #e66767;
+  color: white;
+  border: 2px solid white;
   border-radius: 6px;
   margin-top: 16px;
   transition: .3s linear;
 }
 
-.contact-btn:hover{
+.kontakt-btn:hover{
   background: #e66767;
   color: #f2f2f2;
 }
